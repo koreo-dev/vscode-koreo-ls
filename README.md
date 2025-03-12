@@ -1,4 +1,4 @@
-# VSCODE-KOREO-LS
+# vscode-koreo-ls
 
 ## Structure
 
