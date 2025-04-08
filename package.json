@@ -3,12 +3,12 @@
   "description": "VSCode adapter for Koreo language server",
   "author": "Real Kinetic LLC",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/koreo-dev/vscode-koreo-ls"
   },
-  "publisher": "realkinetic-llc",
+  "publisher": "RealKineticLLC",
   "categories": [],
   "keywords": [
     "multi-root ready"
@@ -29,7 +29,17 @@
         ],
         "configuration": "./language-configuration.json"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Koreo Language Server",
+      "properties": {
+        "koreo-ls.serverPath": {
+          "type": "string",
+          "default": "koreo-ls",
+          "description": "Path to the Koreo language server executable."
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
