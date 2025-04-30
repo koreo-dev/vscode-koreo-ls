@@ -1,5 +1,7 @@
 # vscode-koreo-ls
 
+# INSTALL PYTHON 3.13
+
 ## Structure
 
 ```

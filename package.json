@@ -2,8 +2,8 @@
   "name": "koreo-ls",
   "description": "VSCode adapter for Koreo language server",
   "author": "Real Kinetic LLC",
-  "license": "MIT",
-  "version": "1.0.2",
+  "license": "Apache-2.0",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/koreo-dev/vscode-koreo-ls"
@@ -22,7 +22,10 @@
       {
         "id": "koreo",
         "extensions": [
-          ".koreo"
+          ".koreo",
+          ".k",
+          ".k.yml",
+          ".k.yaml"
         ],
         "aliases": [
           "Koreo"
