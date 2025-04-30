@@ -16,7 +16,7 @@ export function activate(_: ExtensionContext) {
   // The server is implemented in node
   const serverPath =
     workspace.getConfiguration("koreo-ls").get<string>("serverPath") ||
-    "/usr/local/bin/koreo-ls";
+    "koreo-ls";
 
   // If the extension is launched in debug mode then the debug server options are used
   // Otherwise the run options are used
